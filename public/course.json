@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "course_name": "Introduction to C Programming",
+      "course_img": "https://i.ibb.co/1JcdLCx/Rectangle-1.png",
+      "course_description": "Learn the basics of C programming in this introductory course. Build a strong foundation for coding in C.",
+      "price": 499,
+      "credit": 3
+    },
+    {
+      "id": 2,
+      "course_name": "Introduction to Algorithms",
+      "course_img": "https://i.ibb.co/Xz9Gf2p/Rectangle-2.png",
+      "course_description": "Explore the world of algorithms and data structures. Master problem-solving with algorithmic thinking.",
+      "price": 799,
+      "credit": 5
+    },
+    {
+      "id": 3,
+      "course_name": "Introduction to C++ for DSA",
+      "course_img": "https://i.ibb.co/dgKHnHz/Rectangle-3.png",
+      "course_description": "Get started with C++ programming for data structures and algorithms. Learn the language and its applications.",
+      "price": 699,
+      "credit": 4
+    },
+    {
+      "id": 4,
+      "course_name": "Basic Data Structures",
+      "course_img": "https://i.ibb.co/6np9ckW/Rectangle-4.png",
+      "course_description": "Master essential data structures like arrays, linked lists, and trees. Strengthen your programming skills.",
+      "price": 499,
+      "credit": 3
+    },
+    {
+      "id": 5,
+      "course_name": "Introduction to OOP Python",
+      "course_img": "https://i.ibb.co/195hX8r/Rectangle-5.png",
+      "course_description": "Learn object-oriented programming (OOP) in Python. Understand classes, objects, and inheritance.",
+      "price": 899,
+      "credit": 6
+    },
+    {
+      "id": 6,
+      "course_name": "Software Engineering",
+      "course_img": "https://i.ibb.co/Tgmc3t3/Rectangle-6.png",
+      "course_description": "Dive into software engineering principles. Design, develop, and maintain high-quality software solutions.",
+      "price": 1199,
+      "credit": 5
+    },
+    {
+      "id": 7,
+      "course_name": "AWS, Cloud Computing",
+      "course_img": "https://i.ibb.co/qkjsgHp/Rectangle-7.png",
+      "course_description": "Explore Amazon Web Services (AWS) cloud computing. Deploy scalable and reliable applications in the cloud.",
+      "price": 1299,
+      "credit": 7
+    },
+    {
+      "id": 8,
+      "course_name": "Database (MySQL)",
+      "course_img": "https://i.ibb.co/Nnp1TRD/Rectangle-8.png",
+      "course_description": "Learn MySQL database management. Design, query, and manage databases efficiently.",
+      "price": 399,
+      "credit": 2
+    },
+    {
+      "id": 9,
+      "course_name": "Problem-Solving Part",
+      "course_img": "https://i.ibb.co/f4R2Q4b/Rectangle-9.png",
+      "course_description": "Enhance your problem-solving skills. Tackle complex problems with effective strategies and techniques.",
+      "price": 299,
+      "credit": 2
+    }
+  ]
