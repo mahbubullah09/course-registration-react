@@ -1,13 +1,15 @@
 import PropTypes from "prop-types";
 import { FaDollarSign } from "react-icons/fa";
-import { FaBookOpen } from "react-icons/fa";
 import { ToastContainer } from "react-toastify";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faBookOpen } from '@fortawesome/free-solid-svg-icons'
+
 const Course = ({ course, handleAddCourseName }) => {
   const { course_name, course_img, course_description, price, credit } = course;
 
   return (
     <div className="bg-white p-4 rounded-md">
-      <img src={course_img} alt="" />
+      <img  src={course_img} alt="" />
       <h4 className=" my-2 text-lg font-semibold  md:h-12">{course_name}</h4>
       <p className=" text-[#1c1b1b] text-opacity-60  text-sm md:h-20 lg:h-[90px]  ">
         {course_description}
@@ -20,7 +22,7 @@ const Course = ({ course, handleAddCourseName }) => {
           </span>
         </h5>
         <h5 className="flex   items-center gap-1">
-          <FaBookOpen></FaBookOpen>{" "}
+        <FontAwesomeIcon icon={faBookOpen} />{" "}
           <span className="text-[#1c1b1b] text-opacity-60 text-base font-medium">
             Credit: {credit}hr
           </span>
