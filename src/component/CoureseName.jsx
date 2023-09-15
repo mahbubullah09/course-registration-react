@@ -1,23 +1,11 @@
-
-import PropTypes from 'prop-types';
-const CoureseName = ({ courseName, idx}) => {
-   
-    return (
-        <div>
-            <div className='  text-[#1c1b1b] text-opacity-50 text-sm'>
-                <p>{++idx}.  {courseName.course_name}</p>
-
-              
-            </div>
-            
-        </div>
-    );
+import PropTypes from "prop-types";
+const CoureseName = ({ courseName }) => {
+  return (
+    <li className=" text-[#1C1B1B99] text-sm">{courseName.course_name}</li>
+  );
 };
 CoureseName.propTypes = {
-    
-    
-    courseName: PropTypes.array
-    
-}
+  courseName: PropTypes.object,
+};
 
 export default CoureseName;
