@@ -13,7 +13,10 @@ function App() {
   
 
   const handleAddCourseName = (course) => {
-    console.log(course.course_name, course.price, course.credit)
+    if((course.credit + credit) >20){
+      alert(`You have ${remaingCredit} credit to take`)
+    }
+    else{
     const isExist = courseName.find((courseName) => courseName.id == course.id);
 
    
@@ -40,12 +43,12 @@ function App() {
 
       alert('alreaddy added')
     }
+  }
 
     
 
   }
-  console.log(price)
-  console.log(credit)
+
 
  
 
