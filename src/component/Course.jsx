@@ -9,7 +9,7 @@ const Course = ({ course, handleAddCourseName }) => {
     <div className="bg-white p-4 rounded-md">
       <img src={course_img} alt="" />
       <h4 className=" my-2 text-lg font-semibold  md:h-12">{course_name}</h4>
-      <p className=" text-[#1c1b1b] text-opacity-60  text-sm md:h-20">
+      <p className=" text-[#1c1b1b] text-opacity-60  text-sm md:h-20 lg:h-[90px]  ">
         {course_description}
       </p>
       <div className="flex justify-between my-2">

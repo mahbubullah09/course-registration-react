@@ -15,11 +15,11 @@ function App() {
   const handleAddCourseName = (course) => {
     const isExist = courseName.find((courseName) => courseName.id == course.id);
     if(isExist){
-      return toast.warning('alreaddy added')
+      return toast.warn('alreaddy added')
     }
     
     if((course.credit + credit) >20){
-      return toast.warn(`You have ${remaingCredit} credit to take`)   
+      return toast.info(`You have ${remaingCredit} credit to take`)   
     }
       const newCourse = [...courseName, course];
       setCourse(newCourse)
