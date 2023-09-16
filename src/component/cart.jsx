@@ -13,7 +13,7 @@ const Cart = ({ courseName, credit, price, remaingCredit }) => {
 
       <div>
         <h2 className=" font-bold text-lg py-2">Course Name</h2>
-        <div className=" mt-6  list-decimal">
+        <div className=" mt-4  list-decimal">
           {courseName.map((courseName, idx) => (
             <CoureseName
               key={idx}
@@ -22,7 +22,7 @@ const Cart = ({ courseName, credit, price, remaingCredit }) => {
             ></CoureseName>
           ))}
 
-          <hr />
+          <hr className="mt-4" />
         </div>
       </div>
 
